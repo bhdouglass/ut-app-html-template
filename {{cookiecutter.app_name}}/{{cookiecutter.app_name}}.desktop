@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name={{cookiecutter.title}}
-Exec=webapp-container --app-id="{{cookiecutter.app_full_name}}" $@ www/index.html
-Icon=www/assets/logo.png
+Exec=webapp-container --app-id="{{cookiecutter.app_full_name|lower}}" $@ www/index.html
+Icon=www/assets/logo.svg
 Terminal=false
 Type=Application
 X-Ubuntu-Touch=true
